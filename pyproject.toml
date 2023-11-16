@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yt-docker-dj"
+version = "0.1.0"
+description = ""
+authors = ["Damilola Ogungbesan"]
+readme = "README.md"
+packages = [{include = "yt_docker_dj"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
